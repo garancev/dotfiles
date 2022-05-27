@@ -1,0 +1,15 @@
+[user]
+	email = garance@factorial.co
+[alias]
+    st = status
+    ch = checkout
+    pl = pull
+    ph = push
+    a = add
+    co = commit -m
+    amend = commit --amend --no-edit
+    conflict = !git ls-files -u | cut -f 2 | sort -u
+    graph = log --graph --oneline
+    keep = stash save --
+[help]
+    autocorrect = 15
